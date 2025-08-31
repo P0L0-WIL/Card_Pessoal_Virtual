@@ -1,0 +1,68 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #8d69f6;
+      font-family: Arial, sans-serif;
+    }
+
+.card {
+      background: #b6d0f6;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 350px;
+    }
+
+.card h2 {
+      font-family:'Times New Roman', Times, serif;
+      font-size: 24px;
+      color: #2b3e50;
+      margin: 0px 50px 8px 0px;
+    }
+
+.card p {
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 60px px 0px;
+      font-size: 16px;
+      color: #555;
+       margin: 0px 50px 8px 0px;
+    }
+.divider {
+      border-top: 1px solid #000000;
+      margin: 0px 0;
+    }
+.card a {
+      font-family: 'Times New Roman', Times, serif;
+      display: block;
+      color: #1a01ff;
+      text-decoration: none;
+      margin: 8px 0;
+    }
+.phone {
+      background: #000000;
+      color: #000000;
+      padding: 6px 10px;
+      border-radius: 5px;
+      display: inline-block;
+      text-decoration: none;
+      font-weight: bold;
+    }
+.phone:hover {
+      background: #000000;
+    }
+.header img {
+      width: 40px;   /* Ajuste o tamanho do logo */
+      height: 40px;
+      display: block;
+    }
+.header {
+  display: flex;
+  align-items: center;  /* Alinha verticalmente logo e texto */
+  gap: 0px;            /* Espaço entre logo e texto */
+  justify-content:center ; /* Opcional: centraliza no card */
+     }
+    
+
